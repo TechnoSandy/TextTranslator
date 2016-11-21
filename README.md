@@ -1,7 +1,7 @@
 # TextTranslator
 
 
-git page : https://technosandy.github.io/TextTranslator/
+git page : https://technosandy.github.io/TextTranslator/   
 live demo: http://sandeepbalramsatone.com/texttranslator/
 
 #ScreenShot
