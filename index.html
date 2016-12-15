@@ -3,27 +3,24 @@
 
 <head>
     <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Text Converter</title>
+    <title>Text Translator</title>
 </head>
 
 <body>
     <div class="header">
         <h1>Text Translator</h1> </div>
-        <div class="row">
-         
-            
-            <form>
-                
-                <textarea onkeyup=" translator(this.value) " class="col-12 col-m-12" rows="4" cols="50" name="text" id="text" placeholder="Enter the text to Translate ....."></textarea>
-                
-                <textarea readonly class="col-12 col-m-12" rows="4" cols="100" id="translatedText" placeholder="Converted Text......"></textarea>
-            </form>
-            
-            
-        </div>
-    </body>
-    <script type="text/javascript" src="index.js"></script>
+    <div class="row">
+        <form>
+            <textarea id="technosandy" onkeyup=" translator(this.value) " class="col-12 col-m-12" rows="4" cols="50" name="text" id="text" placeholder="Type the text to Translate ....."></textarea>
+            <br>
+            <div class="col-12" id="speak">Speak to Translate<img onclick="startDictation()" src="//i.imgur.com/cHidSVu.gif" /></div>
+            <br>
+            <textarea readonly class="col-12 col-m-12" rows="4" cols="100" id="translatedText" placeholder="Converted Text......"></textarea>
+        </form>
+    </div>
+</body>
+<script type="text/javascript" src="index.js"></script>
 
-    </html>
+</html>

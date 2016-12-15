@@ -1,9 +1,11 @@
 # TextTranslator
 
 
-git page : https://technosandy.github.io/TextTranslator/   
-live demo: http://sandeepbalramsatone.com/texttranslator/
+This is the responsive text translator created using the JS , HTML and CSS .
 
-#ScreenShot
 
-![capture](https://cloud.githubusercontent.com/assets/22931190/20475389/9d4966a6-aff1-11e6-9519-eb93c142e040.PNG)
+Git Page for my Project 
+https://sandy2711323.github.io/TextTranslator/
+
+Demo
+http://sandeepbalramsatone.com/texttranslator/
