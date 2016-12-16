@@ -5,6 +5,7 @@ This is the responsive text translator created using the JS , HTML and CSS .
 
 #WARNING 
 ```diff
+Speech Recognition 
 + Will Work with Chrome 
 - Not tested for all browser 
 ```
