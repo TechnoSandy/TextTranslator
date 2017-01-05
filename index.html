@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <title>Text Translator</title>
+    <style>
+
+    </style>
 </head>
 
 <body>
@@ -16,6 +19,44 @@
             <textarea id="technosandy" onkeyup=" translator(this.value) " class="col-12 col-m-12" rows="4" cols="50" name="text" id="text" placeholder="Type the text to Translate ....."></textarea>
             <br>
             <div class="col-12" id="speak">Speak to Translate<img onclick="startDictation()" src="//i.imgur.com/cHidSVu.gif" /></div>
+            <br>
+            <select>
+                <option value="hi">Hindi हिंदी</option>
+                <option value="ar">Arabic العربية</option>
+                <option value="cs">Czech česky, čeština</option>
+                <option value="da">Danish dansk</option>
+                <option value="de">German Deutsch</option>
+                <option value="en">English English</option>
+                <option value="et">Estonian eesti, eesti keel</option>
+                <option value="fi">Finnish suomi, suomen kieli</option>
+                <option value="fr">French français</option>
+                <option value="nl">Dutch Nederlands, Vlaams</option>
+                <option value="el">Greek Ελληνικά</option>
+                <option value="he">Hebrew עברית</option>
+                <option value="ht">Haitian Creole Kreyòl ayisyen</option>
+                <option value="hu">Hungarian Magyar</option>
+                <option value="id">Indonesian Bahasa Indonesia</option>
+                <option value="it">Italian Italiano</option>
+                <option value="ja">Japanese 日本語</option>
+                <option value="ko">Korean 한국어</option>
+                <option value="lt">Lithuanian lietuvių kalba</option>
+                <option value="lv">Latvian latviešu valoda</option>
+                <option value="no">Norwegian Norsk</option>
+                <option value="pl">Polish polski</option>
+                <option value="pt">Portuguese Português</option>
+                <option value="ro">Romanian română</option>
+                <option value="es">Spanish español</option>
+                <option value="ru">Russian русский язык</option>
+                <option value="sk">Slovak slovenčina</option>
+                <option value="sl">Slovene slovenščina</option>
+                <option value="sv">Swedish svenska</option>
+                <option value="th">Thai ไทย</option>
+                <option value="tr">Turkish Türkçe</option>
+                <option value="uk">Ukrainian українська</option>
+                <option value="vi">Vietnamese Tiếng Việt</option>
+                <option value="zh-CHS">Simplified Chinese 中文</option>
+                <option value="zh-CHT">Traditional Chinese</option>
+            </select>
             <br>
             <textarea readonly class="col-12 col-m-12" rows="4" cols="100" id="translatedText" placeholder="Converted Text......"></textarea>
         </form>
