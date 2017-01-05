@@ -15,8 +15,8 @@
     <div class="header">
         <h1>Text Translator</h1> </div>
     <div class="row">
-        <form>
-            <textarea id="technosandy" onkeyup=" translator(this.value) " class="col-12 col-m-12" rows="4" cols="50" name="text" id="text" placeholder="Type the text to Translate ....."></textarea>
+        <form onchange="onchangeHandler()" id="myForm">
+            <textarea id="technosandy" class="col-12 col-m-12" rows="4" cols="50" name="text" id="text" placeholder="Type the text to Translate ....."></textarea>
             <br>
             <div class="col-12" id="speak">Speak to Translate<img onclick="startDictation()" src="//i.imgur.com/cHidSVu.gif" /></div>
             <br>
