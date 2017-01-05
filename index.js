@@ -19,7 +19,7 @@ function translator(str, langCode) {
                 document.getElementById("translatedText").innerHTML = this.responseText.replace(/<(?:.|\n)*?>/gm, '').trim();
             }
         };
-        // xmlhttp.open("GET", "translate.php?q=" + str + , true);
+        // xmlhttp.open("GET", "translate.php?q=" + str + "&" + "langCode=" + langCode);
         xmlhttp.open("GET", "http://sandeepbalramsatone.com/texttranslator/translate.php?q=" + str + "&" + "langCode=" + langCode, true);
         console.log(langCode);
         console.log(str);
