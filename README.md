@@ -15,7 +15,7 @@ Speech Recognition
 
 
 #Git Page for my Project 
-https://sandy2711323.github.io/TextTranslator/
+https://technosandy.github.io/TextTranslator/
 
 Demo
 http://sandeepbalramsatone.com/texttranslator/
