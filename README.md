@@ -11,7 +11,11 @@ Speech Recognition
 ```
 
 #Screen Shot
-![capture](https://cloud.githubusercontent.com/assets/22931190/21253359/05f3090a-c384-11e6-8add-4eac69855789.PNG)
+![capture](https://cloud.githubusercontent.com/assets/22931190/21680844/3ecfaf00-d372-11e6-8c2c-c2ca0605249d.PNG)
+![capture](https://cloud.githubusercontent.com/assets/22931190/21680872/5b538296-d372-11e6-84c8-164467cd5bee.PNG)
+![screenshot 2017-01-05 18 11 29](https://cloud.githubusercontent.com/assets/22931190/21680882/6c90d234-d372-11e6-8b9f-6faaf07ef3cc.png)
+![capture](https://cloud.githubusercontent.com/assets/22931190/21680907/869384ba-d372-11e6-9a50-d212f402cdad.PNG)
+
 
 
 #Git Page for my Project 
