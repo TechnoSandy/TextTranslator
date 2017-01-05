@@ -37,7 +37,8 @@ function startDictation() {
         recognition.onresult = function (e) {
             document.getElementById('technosandy').value = e.results[0][0].transcript;
             recognition.stop();
-            translator(document.getElementById('technosandy').value)
+            // translator(document.getElementById('technosandy').value);
+            onchangeHandler();
         };
         recognition.onerror = function (e) {
             recognition.stop();
